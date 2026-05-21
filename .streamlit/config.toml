@@ -1,0 +1,21 @@
+[theme]
+primaryColor = "#00ff00" # Neon Yeşil (Butonlar ve vurgular)
+font = "sans serif"
+
+# --- KARANLIK MOD AYARLARI ---
+[theme.dark]
+backgroundColor = "#0b0f19" # Koyu Lacivert Arka Plan
+secondaryBackgroundColor = "#1a2235" # Daha koyu kart arka planı
+textColor = "#e0e0e0" # Açık Gri Yazı
+
+# Arka Plan Görseli (Şeffaf ve Soluk)
+# Biz bu görseli CSS ile arka plana gömeceğiz. 
+# config.toml'da doğrudan görsel yolu verilmez, bu yüzden 
+# app.py'ye küçük bir CSS eklemesi yapması için Antigravity'ye 
+# aşağıdaki promptu vermelisin.
+
+# --- AYDINLIK MOD AYARLARI ---
+[theme.light]
+backgroundColor = "#f0f2f6" # Çok Açık Gri Arka Plan
+secondaryBackgroundColor = "#ffffff" # Beyaz Kart Arka Planı
+textColor = "#333333" # Koyu Antrasit Yazı
